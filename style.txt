@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+
+.button {
+    border: none;
+    border-style: outset;  
+    width: 25%;
+    float: left;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 25px;
+    transition-duration: 0.4s;
+    background-color: transparent; 
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.body {
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+/*    Write your code below this text     */
